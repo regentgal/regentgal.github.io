@@ -1,0 +1,16 @@
+body {
+  font: 1em trebuchet ms, tahoma, verdana, humanist san-serif;
+  margin: 1em; 
+}
+
+h1 {
+  font-size: 250%;
+}
+
+h1 .initial {
+  font-size: 250%;  
+}
+
+h1.name, .employer h3 {
+  color: #037587;
+}
