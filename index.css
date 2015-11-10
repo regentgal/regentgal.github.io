@@ -1,7 +1,8 @@
 body {
-  font: 1em trebuchet ms, tahoma, verdana, humanist san-serif;
+  font: 1em trebuchet ms, verdana, humanist san-serif;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 1em;
+  padding-bottom: 5em;
   max-width: 50em; 
 }
 
@@ -23,19 +24,19 @@ h1, h2, h3 {
   margin: 0;
 }
 
-p, ul {
-  margin: .5em 0;
-}
-
 h1 {
   font-size: 2.5em;
 }
 
-h1 .initial {
+.initial {
   font-size: 2.5em;  
 }
 
-h1.name, .employer .name {
+.employer {
+  margin: 1.5em 0;
+}
+
+.header .name, .employer .name {
   color: #037587;
 }
 
@@ -43,6 +44,10 @@ section h2 {
   text-align: right;
   text-transform: uppercase;
   margin-top: 1em;
+}
+
+p, ul {
+  margin: .5em 0;
 }
 
 .title {
