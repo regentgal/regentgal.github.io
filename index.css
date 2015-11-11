@@ -6,26 +6,34 @@ body {
   max-width: 50em; 
 }
 
-.header, .tenure {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .tenure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: nowrap;
 }
 
-h1, h2, h3 {
-  margin: 0;
-}
-
-h1 {
-  font-size: 2.5em;
+.date {
+  white-space: nowrap;
 }
 
 .initial {
@@ -36,20 +44,22 @@ h1 {
   margin: 1.5em 0;
 }
 
-.header .name, .employer .name {
+.name {
   color: #037587;
+  font-weight: bold;
 }
 
-section h2 {
-  text-align: right;
-  text-transform: uppercase;
-  margin-top: 1em;
+.employer .name {
+  font-weight: bold;
+  margin: 0;  
+}
+
+.title {
+  font-weight: bold;
 }
 
 p, ul {
   margin: .5em 0;
 }
 
-.title {
-  font-weight: bold;
-}
+
